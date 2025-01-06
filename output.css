@@ -776,6 +776,22 @@ video {
   margin-top: 2rem;
 }
 
+.ms-24 {
+  margin-inline-start: 6rem;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.me-10 {
+  margin-inline-end: 2.5rem;
+}
+
+.me-12 {
+  margin-inline-end: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -934,6 +950,10 @@ video {
 
 .gap-4 {
   gap: 1rem;
+}
+
+.justify-self-center {
+  justify-self: center;
 }
 
 .overflow-x-auto {
@@ -1413,6 +1433,18 @@ video {
 
   .md\:mt-8 {
     margin-top: 2rem;
+  }
+
+  .md\:ms-10 {
+    margin-inline-start: 2.5rem;
+  }
+
+  .md\:ms-1 {
+    margin-inline-start: 0.25rem;
+  }
+
+  .md\:ms-14 {
+    margin-inline-start: 3.5rem;
   }
 
   .md\:flex {
